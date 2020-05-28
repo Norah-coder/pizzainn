@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+   
+  }
+body{
+    font-family:'Permanent Marker', cursive ;
+    background-color: turquoise;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.logo{
+ float: left;
+ padding-top: 0px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 70px;
+}
+nav a{   
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a;hover {
+    color: black;
+}
+h1{
+    text-align: center;
+    padding-top:20px ;
+    
+}
+#home{
+    padding-top: 20px;
+    background-repeat: no-repeat;
+}
+#Paz {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+    padding-top: 30px;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+.menu-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+
+#menu {
+    padding-top: 20px;
+}
+label{
+    font-family: 'Permanent Marker', cursive;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+  }
+  #number{
+    font-family: 'Permanent Marker', cursive;
+  }
+  .contacts{
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+    padding-bottom: 18px;
+  }
+  .card-title{
+    text-align: center;
+    color: green;
+    font-weight: 800;
+  }
+  .controls-top h2{
+    color: rgb(5, 172, 5);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+  }
+  .col-md-4{
+    border-radius: 10%;
+    padding: 10px;
+  }
+  #MERGE1{
+    background-color: #66000000;
+  }
+  #MERGE0{
+    background-color: #66000000;
+    
+  }
+  #message{
+    background-color: #66000000;
+  }
+  h2{
+    color: black;
+    padding-top: 30px;
+  }
+  .footer{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+  #checkout{
+    background-color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+  
+  }

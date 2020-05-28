@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paz Pizza Inn</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+   <div class="container">
+      <img src="pizimages/logo.jpg"  alt="logo" class="logo" width="20%">
+      <nav>
+          <ul>
+              <li><a href="#Welcome">Home</a></li>
+              <li><a href="#Menu"> Menu</a></li> 
+              <li><a href="#About Us">About Us</a></li>
+          </ul>   
+      </nav>
+   </div> 
+   <div>
+ </header>
+   
+    <div class="landing">
+        <div class="overlay">
+            <div id="push"></div>
+            <div class="landing-text" id="paz">
+                <h1 class="text-white text-center"><span class="pazz">Paz </span><span class="exc">Pizza Inn</span></h1>
+                <h2 class="text-white text-center">Get your pizza in an instant.</h2>
+            </div>
+            <div class="h-buttons text-center">
+                <a href="#welcome">
+                    <button class="btn bg-info floater  infinite delay-2s">Go</button>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <div class="container carousel slide" data-ride="carousel"  id="slogan">
+        <div class="row">
+          <div class="col-md-12  black-text text-center text">
+              <h2>About us</h2>
+            <p>
+              Paz Pizza Inn is a fast restraurant offerring online orders and deliveries.Its ranked among the best of the best come grab your favorite.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
+        <div class="controls-top "> 
+          <h2>Menu</h2>
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="pizimages/img2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Neapolitan Pizza</h5>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="pizimages/img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"> Sicilian Pizza</h5>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="pizimages/img4.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Chicago Pizza</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="pizimages/img5.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Greek Pizza</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="pizimages/img6.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"> New York-style Pizza</h5>
+                </div>
+              </div>
+            </div> 
+            </div>
+        </div>
+      </div>
+      </div>
+     </div>
+  
+    
+
+     <div class="container-fluid order" id="order">
+      <div class="order-overlay">
+        <div class="controls-top text-center" id="Order-now">
+          <h3>Order Here</h3>
+        </div>
+        <h2>Make an order</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <form action="" id="custom-order"><label for="flavor">Flavor</label>
+              <select class="browser-default custom-select custom-select-md mb-3 name" id="flavor">
+                <option value=""></option>
+                <option value="Neapolitan">Neapolitan</option>
+                <option value="Sicilian">Sicilian</option>
+                <option value="Chicago Pizza">Chicago Pizza</option>
+                <option value="Greek Pizza">Greek Pizza</option>
+                <option value="New York-style Pizza">New York-style Pizza</option>
+              </select>
+              <label for="size">Size</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option value=""></option>
+                <option value="Extra large">Extra large Ksh. 1400</option>
+                <option value="Large">Large Ksh. 1100</option>
+                <option value="Medium">Medium Ksh. 800</option>
+                <option value="Small">Small Ksh. 600</option>
+              </select>
+              <label for="crust">Crust</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                <option value=""></option>
+                <option value="Thin">Thin Ksh. 100</option>
+                <option value="Thick">Thick Ksh. 200</option>
+                <option value="DoubleStack">DoubleStack Ksh. 250</option>
+              </select>
+              <label for="toppings">Toppings </label><br>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                <label class="custom-control-label" for="Bacon">Bacon</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Extra-meat" value="Extra-meat" name="toppings">
+                <label class="custom-control-label" for="Extra-meat">Extra-meat</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="cheese" value="cheese" name="toppings">
+                <label class="custom-control-label" for="cheese">Cheese</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="pepper" value="pepper" name="toppings">
+                <label class="custom-control-label" for="pepper">Pepper</label>
+              </div>
+  
+              <br><br>
+              <label for="number">Quantity</label>
+              <input type="number" class="form-control" id="number" placeholder="Quantity" min="1" required>
+              <br>
+              <br>
+              <button type="order" class="btn btn-green order">Order</button>
+            </form>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Flavor</th>
+                  <th scope="col">Size</th>
+                  <th scope="col">Crust</th>
+                  <th scope="col">Toppings</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="pizza">
+                <tr>  
+                  <td id="pflavor"></td>
+                  <td id="psize"></td>
+                  <td id="pcrust"></td>
+                  <td id="ptoppings"></td>
+                  <td id="pnumber"></td>
+                  <td id="ptotal-cost"></td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <p>Delivery Ksh.200</p>
+            
+            <button type="delivery" class="btn btn-green delivery">Delivery</button>
+            <br><br>
+            <div class="delivery">
+                <p id="del"></p>
+              <form action="" class="del">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                  <input type="text" id="phone" class="form-control mb-3" placeholder="Phone Number">
+                  <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                </div>
+              </form>
+          </div>
+            <button type="check-out" class="btn btn-green check-out">Check-out</button>
+            <p id="message"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="overlay contact" id="contact">
+      <div class="contacts">
+        <h2>CONTACT US</h2>
+        <div class="icons text-center">
+          <p>Send us a message</p>
+          <div class="contact"> <i class="fab fa-facebook-square" id="fb"><a
+                href="https://www.facebook.com/cyrianshako">Paz Pizza Inn</a></i>
+            <br>
+            <i class="fab fa-instagram" id="instagram"><a
+                href="https://www.instagram.com/cyrianshako/">Paz Pizza Inn</a></i>
+            <br>
+            <i class="fab fa-twitter-square" id="twitter"><a href="https://twitter.com/cyrianshako">Paz Pizza Inn</a></i>
+            <br>
+            <i class="far fa-phone-alt">0797789615</i>
+            <br>
+  
+            <br>
+          </div>
+          <div class="col-md-12">
+            <form id="form" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+              <input type="hidden" name="u" value="1467002930d57743aada65c22">
+              <input type="hidden" name="id" value="bf5cbb49c4">
+              <div class="form-group row">
+                <div class="col-md-2"></div>
+                <input class="col-md-4 form-control" type="text" id="MERGE1" placeholder="Name" required>
+                <input class="col-md-4 form-control" type="email" id="MERGE0" placeholder="Email" required>
+                <div class="col-md-2"></div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-2"></div>
+                <textarea class="col-md-8" class="form-control" rows="5" id="message" placeholder="Enter message"
+                  required></textarea>
+                <div class="col-md-2"></div>
+              </div>
+              <button type="submit" class="btn btn-success mx-auto d-block" id="okButton">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer text-center">
+      <footer>
+        &copy;Paz Pizza Inn
+        <br> 2020
+      </footer>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+      
