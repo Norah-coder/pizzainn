@@ -29,25 +29,20 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
 }
-nav a;hover {
-    color: black;
+.paz{
+  padding-top: 30px;
+  text-align: center;
 }
 h1{
     text-align: center;
-    padding-top:20px ;
+    padding-top:10px ;
     
 }
 #home{
     padding-top: 20px;
     background-repeat: no-repeat;
 }
-#Paz {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 35px;
-    font-weight: normal;
-    color: darkorange;
-    padding-top: 30px;
-}
+
 li {
     display: inline;
     margin-right: 20px;
@@ -68,7 +63,7 @@ li {
 
 
 #menu {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 label{
     font-family: 'Permanent Marker', cursive;
@@ -81,7 +76,7 @@ label{
     font-family: 'Permanent Marker', cursive;
   }
   .contacts{
-    background-color: whitesmoke;
+    background-color:green;
     margin-bottom: 5%;
     padding-bottom: 18px;
   }
@@ -110,9 +105,10 @@ label{
   #message{
     background-color: #66000000;
   }
-  h2{
+  h3{
     color: black;
-    padding-top: 30px;
+    padding-top: 40px;
+    text-align: center;
   }
   .footer{
     font-family: 'Permanent Marker', cursive;
